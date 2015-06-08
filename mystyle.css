@@ -1,0 +1,61 @@
+#menu_bar{
+	list-style-type:none;
+	padding: 0px;
+	margin: 10px;
+	float: left;
+	font-size: 20px;
+	width: 80px;
+	overflow: scroll;
+}
+a{
+	display:block;
+}
+#links-sidebar{
+	  		float:right;
+	  		background-color: pink;
+	  		padding-right: 4px;
+	  		padding-left: 4px;
+	  		margin-bottom: 30px;
+	  		margin-right: 10px;
+	  		display: block;
+}
+
+.recipes{
+	border-bottom: ridge 2px
+}
+h1 {
+    font-family: serif;
+    font-size: 50px;
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+}
+
+div.contents{
+	position: absolute;
+	margin-left: 100px;
+}
+
+a:link {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+a:visited {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: lightgrey;
+    color: black;
+    text-overflow: inherit;
+    overflow: visible;
+}
+
+a:active {
+    text-decoration: none;
+    background-color: lightgrey;
+    color: black;
+}
